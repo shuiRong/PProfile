@@ -13,4 +13,4 @@ jobs:
     
     steps:
     - using: node12
-    - main: src/main.js
+    - run: src/main.js
