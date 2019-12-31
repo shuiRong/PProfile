@@ -31,7 +31,6 @@
 
 <script>
 import findType from "@/utils/findType";
-const a = ["React", "Vue"];
 
 export default {
   name: "Tabs",
@@ -128,9 +127,6 @@ export default {
         text-decoration: none;
         line-height: 1.5;
         margin-left: 20px;
-        font-family: AvenirNext, Source Sans Pro, system-ui, BlinkMacSystemFont,
-          -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-          Droid Sans, Helvetica Neue, sans-serif;
         strong {
           margin-right: 0.25rem;
         }

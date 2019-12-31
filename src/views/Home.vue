@@ -10,12 +10,18 @@
           >SegmentFault</a
         >
         <a href="https://github.com/shuiRong" target="_blanket">Github</a>
-        <a href="http://linshuirong.cn/" target="_blanket">Blog</a>
+        <a href="http://linshuirong.cn/blog/" target="_blanket">Blog</a>
         <a href="http://linshuirong.cn/about.html" target="_blanket">About</a>
         <a href="http://linshuirong.cn/resume.html" target="_blanket">Resume</a>
       </div>
     </header>
-    <section></section>
+    <section>
+      <p>
+        没有人可以回到过去，重新开始；<br />
+        但谁都可以从现在开始，书写一个全然不同的结局！
+      </p>
+      <hello></hello>
+    </section>
     <tabs></tabs>
     <hr />
     <footer>
@@ -35,6 +41,7 @@
 
 <script>
 import Tabs from "@/components/Tabs";
+import Hello from "@/components/Hello";
 
 export default {
   name: "home",
@@ -43,13 +50,14 @@ export default {
       count: 0
     };
   },
-  components: { Tabs }
+  components: { Tabs, Hello }
 };
 </script>
 
 <style lang="scss" scoped>
 .home {
   header {
+    top: 0;
     padding: 0 2rem;
     position: fixed;
     height: 80px;
@@ -61,6 +69,7 @@ export default {
     align-items: center;
     h1 {
       color: #161b3d;
+      font-size: 35px;
     }
     a {
       cursor: pointer;
@@ -72,11 +81,20 @@ export default {
     }
   }
   section {
+    p {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.6;
+    }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgb(248, 248, 248);
+    margin-top: 80px;
     height: 523px;
-    background-image: url("~@/assets/img/wallpaper.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url('~@/assets/img/wallpaper.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
   }
   hr {
     margin: auto;
