@@ -17,3 +17,8 @@ fi
 mv public/* blog
 mv blog public
 cp -R "${PProfile}/dist/" public/
+
+cd ${PProfile}
+git add .
+git commit -m 'auto-update'
+git push
