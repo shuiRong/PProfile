@@ -10,7 +10,7 @@
           >SegmentFault</a
         >
         <a href="https://github.com/shuiRong" target="_blanket">Github</a>
-        <a href="http://linshuirong.cn/blog/" target="_blanket">Blog</a>
+        <a href="./blog/" target="_blanket">Blog</a>
         <a href="http://linshuirong.cn/about.html" target="_blanket">About</a>
         <a href="http://linshuirong.cn/resume.html" target="_blanket">Resume</a>
       </div>

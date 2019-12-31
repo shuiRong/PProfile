@@ -103,6 +103,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     .project {
+      cursor: pointer;
       width: 29vw;
       box-sizing: border-box;
       margin-bottom: 2.5rem;
@@ -121,7 +122,6 @@ export default {
         background: rgb(38, 78, 138);
       }
       > a {
-        cursor: pointer;
         width: calc(100% - 70px);
         color: inherit;
         text-decoration: none;
