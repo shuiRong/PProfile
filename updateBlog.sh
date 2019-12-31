@@ -16,6 +16,8 @@ else
 fi
 mv public/* blog
 mv blog public
+mv public/blog/blog/* public/blog
+rm blog
 cp -R "${PProfile}/dist/" public/
 
 cd ${PProfile}
