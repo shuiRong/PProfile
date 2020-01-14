@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <header>
-      <h1>林水溶</h1>
+      <h1><a href="/">林水溶</a></h1>
       <div>
         <a href="https://www.zhihu.com/people/linShuiRong" target="_blanket"
           >Zhihu</a

@@ -1,5 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
+import Loading from "./views/Loading.vue";
 import router from "./router";
 import "./registerServiceWorker";
 
@@ -31,5 +32,5 @@ if (!isPc()) {
 
 new Vue({
   router,
-  render: h => h(App)
+  render: h => h(isPc() ? App : Loading)
 }).$mount("#app");
