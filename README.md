@@ -5,12 +5,12 @@
 
 **预览｜Preview**
 
-![preview](./preview/preview.png)
+![preview](./preview/preview.jpg)
 
 
 
 
 
-**好好看～怎么给自己也整一个？**
+**好好看～我该如何给自己也整一个？**
 
-> 明天再写...
+> 如果有人有需要在issue区，喊我。我再补充这部分文档～
