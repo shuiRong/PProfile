@@ -20,6 +20,10 @@ mv public/blog/blog/* public/blog
 rm blog
 cp -R "${PProfile}/dist/" public/
 
+# -P 如果目标文件夹不存在就创建
+# 将github年度报告复制过来
+cp -RP "${GithubAnnualReport}/build/" public/github
+
 # 本地测试博客运行
 cd public
 hs

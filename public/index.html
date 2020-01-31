@@ -19,6 +19,31 @@
     <strong>We're sorry but temp doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
   </noscript>
   <div id="app"></div>
+  <script>
+    var isPc = function () {
+      var userAgentInfo = navigator.userAgent;
+      var Agents = [
+        "Android",
+        "iPhone",
+        "SymbianOS",
+        "Windows Phone",
+        "iPad",
+        "iPod"
+      ];
+      var flag = true;
+      for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+          flag = false;
+          break;
+        }
+      }
+      return flag;
+    };
+
+    if (!isPc()) {
+      location.href = "/blog/";
+    }
+  </script>
   <!-- built files will be auto injected -->
 </body>
 
