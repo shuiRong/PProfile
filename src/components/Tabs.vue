@@ -120,6 +120,7 @@ export default {
         font-size: 1.5rem;
         border-radius: 0.25rem;
         background: rgb(38, 78, 138);
+        filter: drop-shadow(2px 4px 6px #ccc);
       }
       > a {
         width: calc(100% - 70px);
